@@ -30,7 +30,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24a19558-b780-46f3-aae3-3bd87bb3f59b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tasks.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
@@ -75,8 +74,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596816532267</updated>
-      <workItem from="1596816557927" duration="1566000" />
+      <workItem from="1596816557927" duration="2390000" />
     </task>
+    <task id="LOCAL-00001" summary="Added such functions as: read_tasks, print_tasks, print_basic_menu;">
+      <created>1596818274949</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596818274950</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,5 +99,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added such functions as: read_tasks, print_tasks, print_basic_menu;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added such functions as: read_tasks, print_tasks, print_basic_menu;" />
   </component>
 </project>

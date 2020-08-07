@@ -1,21 +1,23 @@
 #include <iostream>
 #include <string.h>
 #include <fstream>
+#include <ofstream>
 #include <vector>
 
 using namespace std;
-
+//Print user menu
 void user_menu(){
     string menu = "Подсказки: введите\nADD - чтобы добавить задачу\nDEL - чтобы удалить задачу\nCHG - чтобы изменить задачу";
     cout << menu;
 }
-
+//Print all tasks from vector
 void print_tasks(*tasks){
     for (int i = 0; i < tasks.size(); i++){
         cout << tasks[i]
     }
 }
-vector read_tasks(){
+//Read tasks from file
+vector <string>read_tasks(){
     vector <string> tasks;
     string s;
     ifstream file;
@@ -26,13 +28,26 @@ vector read_tasks(){
     };
     return tasks;
 }
-vector start_app(){
-    user_menu();
-    vector <string> tasks = read_tasks();
-    print_tasks(*tasks);
-    return tasks;
+//First start of the app
+int start_app(){
+    int user_action = std();
+    return user_action;
 }
-
+//Write tasks to txt file
+void write(*tasks){
+    ofstream file;
+    file.open('tasks.txt');
+    for (int i = 0; i < tasks.size(); i++){
+        file << tasks[i] << endl;
+    }
+}
+//Action::delete task from vector and save
+void delete_task(*tasks){}
+//Action::add task to the list and save
+void add_task(*tasks){}
+//Action::change task from the list and save
+void change_tak(*tasks){}
+//Standart output: Available actions + To do list
 int std(){
     user_menu();
     vector <string> tasks = read_tasks();
@@ -55,6 +70,8 @@ int std(){
             break;
     }
 }
+//Main function
 int main() {
-    start_app();
+    int user_action = start_app();
+
 }
