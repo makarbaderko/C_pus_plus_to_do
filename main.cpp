@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string.h>
 
+using namespace std;
 void user_menu(){
     string menu = "Подсказки: введите\nADD - чтобы добавить задачу\nDEL - чтобы удалить задачу\nCHG - чтобы изменить задачу";
     cout << menu;
